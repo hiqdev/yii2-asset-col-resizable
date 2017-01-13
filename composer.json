@@ -43,6 +43,9 @@
             "homepage": "http://hiqdev.com/"
         }
     ],
+    "require": {
+        "bower-asset/col-resizable": "^1.6"
+    },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0 || dev-master",
         "hiqdev/hidev-hiqdev": "<2.0 || dev-master"
@@ -51,5 +54,11 @@
         "psr-4": {
             "hiqdev\\yii2\\assets\\colResizable\\": "src"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }
