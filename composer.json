@@ -44,7 +44,7 @@
         }
     ],
     "require": {
-        "bower-asset/col-resizable": "^1.6"
+        "bower-asset/col-resizable": "^1.6 || dev-master"
     },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0 || dev-master",
