@@ -1,0 +1,8 @@
+package:
+    type:           yii2-extension
+    name:           yii2-asset-col-resizable
+    title:          Yii2 Asset for jQuery colResizable plugin
+    keywords:       yii2, asset, col-resizable, jquery
+    namespace:      hiqdev\yii2\assets\colResizable
+    description:    |
+        This package is Yii2 asset bundle for [alvaro-prieto/colResizable](https://github.com/alvaro-prieto/colResizable) jQuery plugin.
