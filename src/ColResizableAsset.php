@@ -29,6 +29,8 @@ class ColResizableAsset extends \yii\web\AssetBundle
 
     public function init()
     {
-        $this->js = YII_DEBUG ? 'colResizable-1.6.js' : 'colResizable-1.6.min.js';
+        parent::init();
+
+        $this->js = [YII_DEBUG ? 'colResizable-1.6.js' : 'colResizable-1.6.min.js'];
     }
 }
